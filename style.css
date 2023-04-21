@@ -1,30 +1,20 @@
 body{
     font-family: sans-serif;
     background-color: #FFF273;
+    margin: 0;
+    text-align: center;
 }
 header{
     justify-content: space-between;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 0;
+    position: relative;
 }
-nav{
-    border-top: 5px solid blue;
-    border-bottom: 5px solid blue;
-    padding: 25px 100px 25px 95px;
-    justify-content: space-between;
-    display: flex;
-}
-.nav-link{
-    font-size: 24px;
-    color: black;
-    text-decoration: none;
-}
+
 h1{
     text-align: center;
     color: black;
     font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
 }
 p{
     font-size: 24px;
@@ -38,9 +28,7 @@ p{
 }
 article{
     background-color: white;
-    padding: ;
     width: 400px;
-    margin: ;
 }
 .article-but{
     text-decoration: none;
@@ -50,8 +38,9 @@ article{
     text-align: center;
     padding: 10px 75px 10px 75px;
 }
-footer{
+footer , header{
     background-color: #0000FF;
+    position: relative;
 }
 footer p, footer h1{
     font-size: 24px;
@@ -78,4 +67,42 @@ footer p, footer h1{
 }
 footer h1{
     font-size: 30px;
+}
+nav a:hover{
+    color: gray;
+    background-color: green;
+}
+.rozetka:hover{
+    border-left: 25px double #9FEE00;
+    border-right: 25px double #9FEE00;
+    padding: 0px 10px 0px 10px;
+}
+header img{
+    margin-left: 150px;
+}
+main{
+    position: relative;
+}
+nav{
+    position: fixed;
+    height: 80%;
+    width: 20%;
+    background-color: gray;
+    border: 5px solid goldenrod;
+    top:10%;
+    z-index: 1;
+    bottom: 25%;
+    padding: 5%;
+    left: -150px;
+}
+nav:hover{
+    left: 0;
+    transition: 5s;
+}
+.nav-link{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin:5%;
 }
