@@ -64,7 +64,7 @@ footer p, footer h1{
 }
 .q_w, .e_r, .t_y, .u_i{
     background-color: #313186;
-    float: center;
+    margin-left: 50%;
 }
 footer h1{
     font-size: 30px;
