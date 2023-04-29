@@ -64,6 +64,7 @@ footer p, footer h1{
 }
 .q_w, .e_r, .t_y, .u_i{
     background-color: #313186;
+    float: center;
 }
 footer h1{
     font-size: 30px;
@@ -105,7 +106,4 @@ nav:hover{
     text-decoration: none;
     display: block;
     margin:5%;
-}
-.q_w , .t_y{
-    margin-left: 25%;
 }
