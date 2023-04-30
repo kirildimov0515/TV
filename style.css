@@ -93,7 +93,9 @@ nav{
     top:15%;
     z-index: 1;
     bottom: 25%;
-    padding: 5%;
+     padding: 5%;
+    padding-top:1%;
+
     left: -200px;
 }
 nav:hover{
